@@ -1,4 +1,9 @@
 export default function projects(){
-    return<>
-    this is about page</>
+    return (
+    <> 
+    MINI PROJECT: Multidimensional scaling assisted clone detection(MDSCLONE)
+    <br/>
+    FSWD PROJECT: Alumni management system
+    </>
+    )
 }

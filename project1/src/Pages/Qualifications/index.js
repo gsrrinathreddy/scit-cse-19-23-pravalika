@@ -16,7 +16,7 @@ export default function Qualifications() {
           <Avatar alt="RGR Siddhanthi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSPcHLQr7yXRS3xTzz-fDmcbo_3WbimLnvW5-w8r5IJQ&s" />
         </ListItemAvatar>
         <ListItemText
-          primary="RGR Siidhanthi Degree College"
+          primary="Sree Chaitanya Institute Of Technological Science"
           secondary={
             <React.Fragment>
               <Typography
@@ -27,7 +27,7 @@ export default function Qualifications() {
               >
                 86% CGPA
               </Typography>
-              {" — B Com Computer Applications, Information Technology"}
+              {" —B.TECH, Computer Science & Engineering"}
             </React.Fragment>
           }
         />
@@ -38,7 +38,7 @@ export default function Qualifications() {
           <Avatar alt="Sri Aadarsh" src="https://www.w3schools.com/howto/img_avatar.png" />
         </ListItemAvatar>
         <ListItemText
-          primary="Sri Aadarsh Junior College"
+          primary="Narayana Junior College"
           secondary={
             <React.Fragment>
               <Typography
@@ -47,9 +47,9 @@ export default function Qualifications() {
                 variant="body2"
                 color="text.primary"
               >
-                84% CGPA
+                90% CGPA
               </Typography>
-              {" — Intermediate studies with Computers & Commerce"}
+              {" — Intermediate studies with Mathematics & Physics"}
             </React.Fragment>
           }
         />
@@ -60,7 +60,7 @@ export default function Qualifications() {
           <Avatar alt="Sai SI" src="https://55knots.com.au/wp-content/uploads/2021/01/Zanj-Avatar-scaled.jpg" />
         </ListItemAvatar>
         <ListItemText
-          primary="Sai Siddhartha High School"
+          primary="Ravindra Model  High School"
           secondary={
             <React.Fragment>
               <Typography
@@ -69,9 +69,9 @@ export default function Qualifications() {
                 variant="body2"
                 color="text.primary"
               >
-                98% CGPA
+                83% CGPA
               </Typography>
-              {' — Higher Secondory Education with Computer Classes'}
+              {' — RHS with Computer Classes'}
             </React.Fragment>
           }
         />

@@ -14,7 +14,7 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom'
 // import Face2Icon from '@mui/icons-material/Face2';
-const pages = ['Aboutme', 'Qualifications', 'Skills', 'Certifications', 'Experience', 'Projects', 'Contact Me'];
+const pages = ['Aboutme', 'Qualifications', 'Skills', 'Certifications', 'Experience', 'Projects', 'Contactme', 'Workshops', 'Hobbies'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function INavbar() {
@@ -121,7 +121,7 @@ function INavbar() {
                  <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'White', display: 'block' }}
               >
                 {page}
               </Button>
@@ -132,7 +132,7 @@ function INavbar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Banda" src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
